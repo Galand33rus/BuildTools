@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superapp</title>
+<!--  <link rel="stylesheet" href="./css/main.css">-->
+<!--  <script src="./js/main.js" type="module"></script>-->
+</head>
+
+<body>
+<div class="header__tab">
+  <h3 class="form__tab">Калькулятор дат</h3>
+  <h3 class="form__tab">Таймер</h3>
+</div>
+
+
+<form id="datecalc" class="form">
+  <label>
+	 <strong>Первая дата:</strong>
+	 <input type="date" name="firstDate"/>
+  </label>
+  <label>
+	 <strong>Вторая дата:</strong>
+	 <input type="date" name="secondDate"/>
+  </label>
+  <button type="submit">Расcчитать промежуток</button>
+  <p id="datecalc__result"></p>
+</form>
+
+<form id="timer" class="form">
+  <label>
+	 <strong>Введите время</strong>
+	 <input type="text" name="starting" autocomplete="off">
+  </label>
+  <button class="start-button">Старт</button>
+  <button class="stop-button">Стоп</button>
+  <p id="timer__result"><strong>0</strong></p>
+  <p id="error"></p>
+</form>
+
+
+
+</body>
+
+</html>

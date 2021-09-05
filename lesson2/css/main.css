@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.header__tab {
+  display: flex;
+  margin-bottom: 10px;
+}
+.header__tab h3 {
+  margin-right: 20px;
+}
+
+.form {
+  padding: 10px;
+  width: 350px;
+  min-height: 350px;
+}
+.form-wrapper {
+  padding: 10px;
+}
+.form__tab {
+  color: #000;
+  font-weight: 600;
+  padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px 3px 0 0;
+}
+.form__tab.active {
+  background-color: #298cad;
+  color: #fff;
+}
+.form.hide {
+  display: none;
+}
+.form input {
+  display: block;
+  width: 350px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.form button {
+  width: 350px;
+  padding: 15px 0;
+  border: transparent;
+  cursor: pointer;
+  background-color: #298cad;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+#timer__result {
+  width: 350px;
+  padding: 20px;
+  border: 2px solid #298cad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #298cad;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
